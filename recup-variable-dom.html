@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* ici CSS */
+        html,
+        body {
+            margin: 0 auto;
+            color: blueviolet;
+            margin-left: 10%;
+        }
+    </style>
+        
+
+    <title> recuperer element et injecter dans le DOM </title>
+</head>
+
+<body>    
+
+    <h1>js et Dom</h1>
+    <p id="titre">test</p>
+
+
+
+
+
+    <script>
+        /*ici on code en js seulement*/
+        let nom = "nom";
+        let prenom = "yamina";
+        let age = 22;
+        document.getElementById("titre").innerHTML = `je m'apelle ${nom} ${prenom} et j'ai ${age} ans`;
+    </script>
+</body>
+
+</html>
